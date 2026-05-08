@@ -1,0 +1,309 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Game Development\\C#\\Monogames\\Programmering 2\\Slutprojekt Stickman\\StickmanFighterClean\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D2E3F4-A5B6-7890-CDEF-123456789ABC}|StickmanFighter.csproj|f:\\game development\\c#\\monogames\\programmering 2\\slutprojekt stickman\\stickmanfighterclean\\screens\\gamescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1D2E3F4-A5B6-7890-CDEF-123456789ABC}|StickmanFighter.csproj|solutionrelative:screens\\gamescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D2E3F4-A5B6-7890-CDEF-123456789ABC}|StickmanFighter.csproj|f:\\game development\\c#\\monogames\\programmering 2\\slutprojekt stickman\\stickmanfighterclean\\screens\\menuinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1D2E3F4-A5B6-7890-CDEF-123456789ABC}|StickmanFighter.csproj|solutionrelative:screens\\menuinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D2E3F4-A5B6-7890-CDEF-123456789ABC}|StickmanFighter.csproj|f:\\game development\\c#\\monogames\\programmering 2\\slutprojekt stickman\\stickmanfighterclean\\screens\\gameoverscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1D2E3F4-A5B6-7890-CDEF-123456789ABC}|StickmanFighter.csproj|solutionrelative:screens\\gameoverscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D2E3F4-A5B6-7890-CDEF-123456789ABC}|StickmanFighter.csproj|f:\\game development\\c#\\monogames\\programmering 2\\slutprojekt stickman\\stickmanfighterclean\\screens\\fonts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1D2E3F4-A5B6-7890-CDEF-123456789ABC}|StickmanFighter.csproj|solutionrelative:screens\\fonts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D2E3F4-A5B6-7890-CDEF-123456789ABC}|StickmanFighter.csproj|f:\\game development\\c#\\monogames\\programmering 2\\slutprojekt stickman\\stickmanfighterclean\\screens\\debugscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1D2E3F4-A5B6-7890-CDEF-123456789ABC}|StickmanFighter.csproj|solutionrelative:screens\\debugscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D2E3F4-A5B6-7890-CDEF-123456789ABC}|StickmanFighter.csproj|f:\\game development\\c#\\monogames\\programmering 2\\slutprojekt stickman\\stickmanfighterclean\\map\\map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1D2E3F4-A5B6-7890-CDEF-123456789ABC}|StickmanFighter.csproj|solutionrelative:map\\map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D2E3F4-A5B6-7890-CDEF-123456789ABC}|StickmanFighter.csproj|f:\\game development\\c#\\monogames\\programmering 2\\slutprojekt stickman\\stickmanfighterclean\\input\\playerinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1D2E3F4-A5B6-7890-CDEF-123456789ABC}|StickmanFighter.csproj|solutionrelative:input\\playerinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D2E3F4-A5B6-7890-CDEF-123456789ABC}|StickmanFighter.csproj|f:\\game development\\c#\\monogames\\programmering 2\\slutprojekt stickman\\stickmanfighterclean\\input\\inputscheme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1D2E3F4-A5B6-7890-CDEF-123456789ABC}|StickmanFighter.csproj|solutionrelative:input\\inputscheme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D2E3F4-A5B6-7890-CDEF-123456789ABC}|StickmanFighter.csproj|f:\\game development\\c#\\monogames\\programmering 2\\slutprojekt stickman\\stickmanfighterclean\\entities\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1D2E3F4-A5B6-7890-CDEF-123456789ABC}|StickmanFighter.csproj|solutionrelative:entities\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D2E3F4-A5B6-7890-CDEF-123456789ABC}|StickmanFighter.csproj|f:\\game development\\c#\\monogames\\programmering 2\\slutprojekt stickman\\stickmanfighterclean\\entities\\fighter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1D2E3F4-A5B6-7890-CDEF-123456789ABC}|StickmanFighter.csproj|solutionrelative:entities\\fighter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D2E3F4-A5B6-7890-CDEF-123456789ABC}|StickmanFighter.csproj|f:\\game development\\c#\\monogames\\programmering 2\\slutprojekt stickman\\stickmanfighterclean\\info.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{C1D2E3F4-A5B6-7890-CDEF-123456789ABC}|StickmanFighter.csproj|solutionrelative:info.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D2E3F4-A5B6-7890-CDEF-123456789ABC}|StickmanFighter.csproj|f:\\game development\\c#\\monogames\\programmering 2\\slutprojekt stickman\\stickmanfighterclean\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1D2E3F4-A5B6-7890-CDEF-123456789ABC}|StickmanFighter.csproj|solutionrelative:game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D2E3F4-A5B6-7890-CDEF-123456789ABC}|StickmanFighter.csproj|f:\\game development\\c#\\monogames\\programmering 2\\slutprojekt stickman\\stickmanfighterclean\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1D2E3F4-A5B6-7890-CDEF-123456789ABC}|StickmanFighter.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D2E3F4-A5B6-7890-CDEF-123456789ABC}|StickmanFighter.csproj|f:\\game development\\c#\\monogames\\programmering 2\\slutprojekt stickman\\stickmanfighterclean\\screens\\mainmenuscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1D2E3F4-A5B6-7890-CDEF-123456789ABC}|StickmanFighter.csproj|solutionrelative:screens\\mainmenuscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D2E3F4-A5B6-7890-CDEF-123456789ABC}|StickmanFighter.csproj|f:\\game development\\c#\\monogames\\programmering 2\\slutprojekt stickman\\stickmanfighterclean\\screens\\playerselectscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1D2E3F4-A5B6-7890-CDEF-123456789ABC}|StickmanFighter.csproj|solutionrelative:screens\\playerselectscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D2E3F4-A5B6-7890-CDEF-123456789ABC}|StickmanFighter.csproj|f:\\game development\\c#\\monogames\\programmering 2\\slutprojekt stickman\\stickmanfighterclean\\screens\\screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1D2E3F4-A5B6-7890-CDEF-123456789ABC}|StickmanFighter.csproj|solutionrelative:screens\\screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1D2E3F4-A5B6-7890-CDEF-123456789ABC}|StickmanFighter.csproj|f:\\game development\\c#\\monogames\\programmering 2\\slutprojekt stickman\\stickmanfighterclean\\map\\platform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1D2E3F4-A5B6-7890-CDEF-123456789ABC}|StickmanFighter.csproj|solutionrelative:map\\platform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Info.md",
+              "DocumentMoniker": "F:\\Game Development\\C#\\Monogames\\Programmering 2\\Slutprojekt Stickman\\StickmanFighterClean\\Info.md",
+              "RelativeDocumentMoniker": "Info.md",
+              "ToolTip": "F:\\Game Development\\C#\\Monogames\\Programmering 2\\Slutprojekt Stickman\\StickmanFighterClean\\Info.md",
+              "RelativeToolTip": "Info.md",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAD0AAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-05-08T19:08:39.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PlayerInput.cs",
+              "DocumentMoniker": "F:\\Game Development\\C#\\Monogames\\Programmering 2\\Slutprojekt Stickman\\StickmanFighterClean\\Input\\PlayerInput.cs",
+              "RelativeDocumentMoniker": "Input\\PlayerInput.cs",
+              "ToolTip": "F:\\Game Development\\C#\\Monogames\\Programmering 2\\Slutprojekt Stickman\\StickmanFighterClean\\Input\\PlayerInput.cs",
+              "RelativeToolTip": "Input\\PlayerInput.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAowEIAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T18:50:40.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "InputScheme.cs",
+              "DocumentMoniker": "F:\\Game Development\\C#\\Monogames\\Programmering 2\\Slutprojekt Stickman\\StickmanFighterClean\\Input\\InputScheme.cs",
+              "RelativeDocumentMoniker": "Input\\InputScheme.cs",
+              "ToolTip": "F:\\Game Development\\C#\\Monogames\\Programmering 2\\Slutprojekt Stickman\\StickmanFighterClean\\Input\\InputScheme.cs",
+              "RelativeToolTip": "Input\\InputScheme.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T18:52:19.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Entity.cs",
+              "DocumentMoniker": "F:\\Game Development\\C#\\Monogames\\Programmering 2\\Slutprojekt Stickman\\StickmanFighterClean\\Entities\\Entity.cs",
+              "RelativeDocumentMoniker": "Entities\\Entity.cs",
+              "ToolTip": "F:\\Game Development\\C#\\Monogames\\Programmering 2\\Slutprojekt Stickman\\StickmanFighterClean\\Entities\\Entity.cs",
+              "RelativeToolTip": "Entities\\Entity.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAcwA4AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T18:58:20.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Fighter.cs",
+              "DocumentMoniker": "F:\\Game Development\\C#\\Monogames\\Programmering 2\\Slutprojekt Stickman\\StickmanFighterClean\\Entities\\Fighter.cs",
+              "RelativeDocumentMoniker": "Entities\\Fighter.cs",
+              "ToolTip": "F:\\Game Development\\C#\\Monogames\\Programmering 2\\Slutprojekt Stickman\\StickmanFighterClean\\Entities\\Fighter.cs",
+              "RelativeToolTip": "Entities\\Fighter.cs",
+              "ViewState": "AgIAADQBAAAAAAAAAAAiwHgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T18:52:22.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Map.cs",
+              "DocumentMoniker": "F:\\Game Development\\C#\\Monogames\\Programmering 2\\Slutprojekt Stickman\\StickmanFighterClean\\Map\\Map.cs",
+              "RelativeDocumentMoniker": "Map\\Map.cs",
+              "ToolTip": "F:\\Game Development\\C#\\Monogames\\Programmering 2\\Slutprojekt Stickman\\StickmanFighterClean\\Map\\Map.cs",
+              "RelativeToolTip": "Map\\Map.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T18:50:37.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DebugScreen.cs",
+              "DocumentMoniker": "F:\\Game Development\\C#\\Monogames\\Programmering 2\\Slutprojekt Stickman\\StickmanFighterClean\\Screens\\DebugScreen.cs",
+              "RelativeDocumentMoniker": "Screens\\DebugScreen.cs",
+              "ToolTip": "F:\\Game Development\\C#\\Monogames\\Programmering 2\\Slutprojekt Stickman\\StickmanFighterClean\\Screens\\DebugScreen.cs",
+              "RelativeToolTip": "Screens\\DebugScreen.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T18:48:44.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MenuInput.cs",
+              "DocumentMoniker": "F:\\Game Development\\C#\\Monogames\\Programmering 2\\Slutprojekt Stickman\\StickmanFighterClean\\Screens\\MenuInput.cs",
+              "RelativeDocumentMoniker": "Screens\\MenuInput.cs",
+              "ToolTip": "F:\\Game Development\\C#\\Monogames\\Programmering 2\\Slutprojekt Stickman\\StickmanFighterClean\\Screens\\MenuInput.cs",
+              "RelativeToolTip": "Screens\\MenuInput.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T18:49:59.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Fonts.cs",
+              "DocumentMoniker": "F:\\Game Development\\C#\\Monogames\\Programmering 2\\Slutprojekt Stickman\\StickmanFighterClean\\Screens\\Fonts.cs",
+              "RelativeDocumentMoniker": "Screens\\Fonts.cs",
+              "ToolTip": "F:\\Game Development\\C#\\Monogames\\Programmering 2\\Slutprojekt Stickman\\StickmanFighterClean\\Screens\\Fonts.cs",
+              "RelativeToolTip": "Screens\\Fonts.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T18:50:31.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GameOverScreen.cs",
+              "DocumentMoniker": "F:\\Game Development\\C#\\Monogames\\Programmering 2\\Slutprojekt Stickman\\StickmanFighterClean\\Screens\\GameOverScreen.cs",
+              "RelativeDocumentMoniker": "Screens\\GameOverScreen.cs",
+              "ToolTip": "F:\\Game Development\\C#\\Monogames\\Programmering 2\\Slutprojekt Stickman\\StickmanFighterClean\\Screens\\GameOverScreen.cs",
+              "RelativeToolTip": "Screens\\GameOverScreen.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwCoAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T18:50:29.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameScreen.cs",
+              "DocumentMoniker": "F:\\Game Development\\C#\\Monogames\\Programmering 2\\Slutprojekt Stickman\\StickmanFighterClean\\Screens\\GameScreen.cs",
+              "RelativeDocumentMoniker": "Screens\\GameScreen.cs",
+              "ToolTip": "F:\\Game Development\\C#\\Monogames\\Programmering 2\\Slutprojekt Stickman\\StickmanFighterClean\\Screens\\GameScreen.cs",
+              "RelativeToolTip": "Screens\\GameScreen.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAmwFIAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T18:50:28.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MainMenuScreen.cs",
+              "DocumentMoniker": "F:\\Game Development\\C#\\Monogames\\Programmering 2\\Slutprojekt Stickman\\StickmanFighterClean\\Screens\\MainMenuScreen.cs",
+              "RelativeDocumentMoniker": "Screens\\MainMenuScreen.cs",
+              "ToolTip": "F:\\Game Development\\C#\\Monogames\\Programmering 2\\Slutprojekt Stickman\\StickmanFighterClean\\Screens\\MainMenuScreen.cs",
+              "RelativeToolTip": "Screens\\MainMenuScreen.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T18:49:49.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PlayerSelectScreen.cs",
+              "DocumentMoniker": "F:\\Game Development\\C#\\Monogames\\Programmering 2\\Slutprojekt Stickman\\StickmanFighterClean\\Screens\\PlayerSelectScreen.cs",
+              "RelativeDocumentMoniker": "Screens\\PlayerSelectScreen.cs",
+              "ToolTip": "F:\\Game Development\\C#\\Monogames\\Programmering 2\\Slutprojekt Stickman\\StickmanFighterClean\\Screens\\PlayerSelectScreen.cs",
+              "RelativeToolTip": "Screens\\PlayerSelectScreen.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T18:50:03.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Screen.cs",
+              "DocumentMoniker": "F:\\Game Development\\C#\\Monogames\\Programmering 2\\Slutprojekt Stickman\\StickmanFighterClean\\Screens\\Screen.cs",
+              "RelativeDocumentMoniker": "Screens\\Screen.cs",
+              "ToolTip": "F:\\Game Development\\C#\\Monogames\\Programmering 2\\Slutprojekt Stickman\\StickmanFighterClean\\Screens\\Screen.cs",
+              "RelativeToolTip": "Screens\\Screen.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAA0wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T19:02:17.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Game1.cs",
+              "DocumentMoniker": "F:\\Game Development\\C#\\Monogames\\Programmering 2\\Slutprojekt Stickman\\StickmanFighterClean\\Game1.cs",
+              "RelativeDocumentMoniker": "Game1.cs",
+              "ToolTip": "F:\\Game Development\\C#\\Monogames\\Programmering 2\\Slutprojekt Stickman\\StickmanFighterClean\\Game1.cs",
+              "RelativeToolTip": "Game1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T18:48:26.827Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\Game Development\\C#\\Monogames\\Programmering 2\\Slutprojekt Stickman\\StickmanFighterClean\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "F:\\Game Development\\C#\\Monogames\\Programmering 2\\Slutprojekt Stickman\\StickmanFighterClean\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T19:31:36.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Platform.cs",
+              "DocumentMoniker": "F:\\Game Development\\C#\\Monogames\\Programmering 2\\Slutprojekt Stickman\\StickmanFighterClean\\Map\\Platform.cs",
+              "RelativeDocumentMoniker": "Map\\Platform.cs",
+              "ToolTip": "F:\\Game Development\\C#\\Monogames\\Programmering 2\\Slutprojekt Stickman\\StickmanFighterClean\\Map\\Platform.cs",
+              "RelativeToolTip": "Map\\Platform.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-08T18:50:34.862Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
