@@ -77,7 +77,7 @@ namespace StickmanFighter.Screens
                 centerX, Game1.ScreenHeight - 28, Color.LightSteelBlue, 1);
         }
 
-        private void DrawCards(SpriteBatch sb, int cx, int cy)
+        private void DrawCards(SpriteBatch sb, int centerX, int centerY)
         {
             string[] kbNames = { "WASD", "ARROWS", "IJKL", "NUM" };
 
@@ -85,31 +85,31 @@ namespace StickmanFighter.Screens
             {
                 bool  active   = i < playerCount;
                 Color c        = active ? Fighter.PlayerColors[i] : Color.DimGray;
-                int   px       = cx - 285 + i * 190;
-                int   py       = cy + 80;
+                int   playerX       = centerX - 285 + i * 190;
+                int   playerY       = centerY + 80;
                 bool  padReady = GamepadInput.IsConnected((PlayerIndex)i);
                 bool  usingPad = useGamepad[i] && padReady;
 
-                DrawRect(sb, new Rectangle(px - 44, py - 90, 88, 140), Color.Black * 0.4f);
+                DrawRect(sb, new Rectangle(playerX - 44, playerY - 90, 88, 140), Color.Black * 0.4f);
 
                 if (active)
                 {
-                    DrawRect(sb, new Rectangle(px - 44, py - 90, 88,  2), c);
-                    DrawRect(sb, new Rectangle(px - 44, py + 50, 88,  2), c);
-                    DrawRect(sb, new Rectangle(px - 44, py - 90,  2, 140), c);
-                    DrawRect(sb, new Rectangle(px + 42,  py - 90,  2, 140), c);
+                    DrawRect(sb, new Rectangle(playerX - 44, playerY - 90, 88,  2), c);
+                    DrawRect(sb, new Rectangle(playerX - 44, playerY + 50, 88,  2), c);
+                    DrawRect(sb, new Rectangle(playerX - 44, playerY - 90,  2, 140), c);
+                    DrawRect(sb, new Rectangle(playerX + 42, playerY - 90,  2, 140), c);
                 }
 
-                DrawMiniStick(sb, new Vector2(px, py - 10), c);
-                DrawTextCentered(sb, $"P{i + 1}", px, py + 22, c, 2);
+                DrawMiniStick(sb, new Vector2(playerX, playerY - 10), c);
+                DrawTextCentered(sb, $"P{i + 1}", playerX, playerY + 22, c, 2);
 
                 if (active)
                 {
                     string inputLabel = usingPad ? "GAMEPAD" : kbNames[i];
-                    DrawTextCentered(sb, inputLabel, px, py + 38, usingPad ? Color.LightGreen : Color.LightGray, 1);
+                    DrawTextCentered(sb, inputLabel, playerX, playerY + 38, usingPad ? Color.LightGreen : Color.LightGray, 1);
 
                     if (padReady && !usingPad)
-                        DrawTextCentered(sb, $"pad {(int)padIndex[i] + 1} avail", px, py + 52, Color.DarkGreen, 1);
+                        DrawTextCentered(sb, $"pad {(int)padIndex[i] + 1} avail", playerX, playerY + 52, Color.DarkGreen, 1);
                 }
             }
         }

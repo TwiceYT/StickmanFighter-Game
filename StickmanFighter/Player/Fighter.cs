@@ -162,7 +162,7 @@ namespace StickmanFighter.Entities
             var pos = Position;
             var vel = Velocity;
 
-            bool grounded = map.ResolveCollisions(ref pos, ref vel, Width, Height, prevFeetY);
+            bool grounded = map.FixCollisions(ref pos, ref vel, Width, Height, prevFeetY);
 
             if (grounded && !IsOnGround) jumpsLeft = 2;
 
@@ -233,6 +233,10 @@ namespace StickmanFighter.Entities
                 prevFeetY  = 150f;
             }
         }
+
+        //
+        //Draw the fighter, partially AI written.
+        //
 
         public override void Draw(SpriteBatch sb)
         {

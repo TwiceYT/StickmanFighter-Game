@@ -86,11 +86,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Game Development\\C#\\Monogames\\Programmering 2\\Slutprojekt Stickman\\StickmanFighterClean\\StickmanFighter.csproj",
+      "projectUniqueName": "F:\\Game Development\\C#\\Monogames\\Programmering 2\\Slutprojekt Stickman\\StickmanFighter\\StickmanFighter.csproj",
       "projectName": "StickmanFighter",
-      "projectPath": "F:\\Game Development\\C#\\Monogames\\Programmering 2\\Slutprojekt Stickman\\StickmanFighterClean\\StickmanFighter.csproj",
+      "projectPath": "F:\\Game Development\\C#\\Monogames\\Programmering 2\\Slutprojekt Stickman\\StickmanFighter\\StickmanFighter.csproj",
       "packagesPath": "C:\\Users\\vikto\\.nuget\\packages\\",
-      "outputPath": "F:\\Game Development\\C#\\Monogames\\Programmering 2\\Slutprojekt Stickman\\StickmanFighterClean\\obj\\",
+      "outputPath": "F:\\Game Development\\C#\\Monogames\\Programmering 2\\Slutprojekt Stickman\\StickmanFighter\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -23,7 +23,7 @@ namespace StickmanFighter.Map
             sb.Draw(Game1.Pixel, new Rectangle(Bounds.X, Bounds.Y, Bounds.Width, 3), Color.Lerp(color, Color.White, 0.4f));
         }
 
-        public bool ResolveCollision(ref Vector2 pos, ref Vector2 vel, int w, int h, float prevFeetY)
+        public bool FixCollision(ref Vector2 pos, ref Vector2 vel, int w, int h, float prevFeetY)
         {
             float left  = pos.X - w / 2f;
             float right = pos.X + w / 2f;
@@ -44,8 +44,8 @@ namespace StickmanFighter.Map
 
             if (!PassThrough)
             {
-                bool inside = feet > Bounds.Top && pos.Y - h < Bounds.Bottom;
-                if (inside)
+                bool insidePlat = feet > Bounds.Top && pos.Y - h < Bounds.Bottom;
+                if (insidePlat)
                 {
                     if (vel.X > 0 && pos.X < Bounds.Center.X)
                         pos = new Vector2(Bounds.Left - w / 2f, pos.Y);

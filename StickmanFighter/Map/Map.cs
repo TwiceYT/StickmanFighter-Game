@@ -17,11 +17,11 @@ namespace StickmanFighter.Map
 
         protected abstract void DrawBackground(SpriteBatch sb);
 
-        public bool ResolveCollisions(ref Vector2 pos, ref Vector2 vel, int w, int h, float prevFeetY)
+        public bool FixCollisions(ref Vector2 pos, ref Vector2 vel, int w, int h, float prevFeetY)
         {
             bool grounded = false;
             foreach (var p in platforms)
-                if (p.ResolveCollision(ref pos, ref vel, w, h, prevFeetY))
+                if (p.FixCollision(ref pos, ref vel, w, h, prevFeetY))
                     grounded = true;
             return grounded;
         }

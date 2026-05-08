@@ -43,10 +43,10 @@ namespace StickmanFighter.Screens
             }
         }
 
-        protected void DrawTextCentered(SpriteBatch sb, string text, int cx, int y, Color color, int scale = 2)
+        protected void DrawTextCentered(SpriteBatch sb, string text, int centerX, int y, Color color, int scale = 2)
         {
             int w = text.Length * 6 * scale;
-            DrawText(sb, text, new Vector2(cx - w / 2, y), color, scale);
+            DrawText(sb, text, new Vector2(centerX - w / 2, y), color, scale);
         }
     }
 }
