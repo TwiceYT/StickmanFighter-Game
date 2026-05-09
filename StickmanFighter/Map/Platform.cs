@@ -1,20 +1,20 @@
-using Microsoft.Xna.Framework;
+﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
 namespace StickmanFighter.Map
 {
     public class Platform
     {
-        public Rectangle Bounds       { get; }
-        public bool      PassThrough  { get; }
+        public Rectangle Bounds { get; }
+        public bool PassThrough { get; }
 
         private Color color;
 
         public Platform(int x, int y, int w, int h, bool passThrough, Color color)
         {
-            Bounds      = new Rectangle(x, y, w, h);
+            Bounds = new Rectangle(x, y, w, h);
             PassThrough = passThrough;
-            this.color  = color;
+            this.color = color;
         }
 
         public void Draw(SpriteBatch sb)
@@ -25,14 +25,14 @@ namespace StickmanFighter.Map
 
         public bool FixCollision(ref Vector2 pos, ref Vector2 vel, int w, int h, float prevFeetY)
         {
-            float left  = pos.X - w / 2f;
+            float left = pos.X - w / 2f;
             float right = pos.X + w / 2f;
-            float feet  = pos.Y;
+            float feet = pos.Y;
 
             if (right <= Bounds.Left || left >= Bounds.Right)
                 return false;
 
-            bool wasAbove   = prevFeetY <= Bounds.Top + 2f;
+            bool wasAbove = prevFeetY <= Bounds.Top + 2f;
             bool crossedTop = feet >= Bounds.Top && feet <= Bounds.Top + h * 0.6f;
 
             if (wasAbove && crossedTop && vel.Y >= 0)

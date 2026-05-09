@@ -1,60 +1,61 @@
-using Microsoft.Xna.Framework;
+﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using StickmanFighter.Input;
+using System;
 
 namespace StickmanFighter.Entities
 {
     public class Fighter : Entity
     {
-        public override int Width  => 28;
+        public override int Width => 28;
         public override int Height => 70;
 
-        public string Name          { get; }
-        public Color  Color         { get; }
-        public int    Lives         { get; private set; }
-        public bool   IsAlive       { get; private set; } = true;
-        public float  DamagePercent { get; private set; }
+        public string Name { get; }
+        public Color Color { get; }
+        public int Lives { get; private set; }
+        public bool IsAlive { get; private set; } = true;
+        public float DamagePercent { get; private set; }
 
         public static Color[] PlayerColors = { Color.Tomato, Color.LimeGreen, Color.CornflowerBlue, Color.Gold };
 
-        private const float MoveSpeed  = 340f;
-        private const float Jump  = -750f;
+        private const float MoveSpeed = 340f;
+        private const float Jump = -750f;
         private const float AirControl = 0.8f;
 
-        private int   jumpsLeft  = 2;
-        private float prevFeetY  = 9999f;
+        private int jumpsLeft = 2;
+        private float prevFeetY = 9999f;
 
-        private const float MaxCharge      = 1.2f;
+        private const float MaxCharge = 1.2f;
         private const float AttackDuration = 0.22f;
-        private const float KnockbackTime  = 0.15f;
-        private const float IFrameTime     = 0.5f;
+        private const float KnockbackTime = 0.15f;
+        private const float IFrameTime = 0.5f;
 
-        private bool  isCharging    = false;
-        private float chargeTimer   = 0f;
-        private bool  isAttackActive  = false;
-        private float attackTimer   = 0f;
-        private float firedCharge   = 0f;
-        private bool  hitDelivered  = false;
+        private bool isCharging = false;
+        private float chargeTimer = 0f;
+        private bool isAttackActive = false;
+        private float attackTimer = 0f;
+        private float firedCharge = 0f;
+        private bool hitDelivered = false;
         private float knockbackTimer = 0f;
-        private float iFrameTimer   = 0f;
-        private float hitBlinkTimer      = 0f;
+        private float iFrameTimer = 0f;
+        private float hitBlinkTimer = 0f;
 
-        public bool  IsBlocking  { get; private set; }
+        public bool IsBlocking { get; private set; }
         public float ChargeRatio => Math.Clamp(chargeTimer / MaxCharge, 0f, 1f);
 
-        private float facing    = 1f;
+        private float facing = 1f;
         private float walkCycle = 0f;
-        private bool  isWalking = false;
+        private bool isWalking = false;
 
         private PlayerInput input;
 
         public Fighter(string name, Color color, Vector2 startPos, PlayerInput input, int lives = 3)
             : base(startPos)
         {
-            Name       = name;
-            Color      = color;
-            Lives      = lives;
-            prevFeetY  = startPos.Y;
+            Name = name;
+            Color = color;
+            Lives = lives;
+            prevFeetY = startPos.Y;
             this.input = input;
         }
 
@@ -75,10 +76,10 @@ namespace StickmanFighter.Entities
 
         private void TickTimers(float dt)
         {
-            if (iFrameTimer    > 0) iFrameTimer    -= dt;
+            if (iFrameTimer > 0) iFrameTimer -= dt;
             if (knockbackTimer > 0) knockbackTimer -= dt;
             if (hitBlinkTimer > 0) hitBlinkTimer -= dt;
-            if (attackTimer    > 0)
+            if (attackTimer > 0)
             {
                 attackTimer -= dt;
                 if (attackTimer <= 0) { isAttackActive = false; hitDelivered = false; }
@@ -91,32 +92,38 @@ namespace StickmanFighter.Entities
 
             if (knockbackTimer > 0)
             {
-                if (input.MoveLeft)  facing = -1f;
-                if (input.MoveRight) facing  =  1f;
+                if (input.MoveLeft) facing = -1f;
+                if (input.MoveRight) facing = 1f;
                 isWalking = false;
             }
             else if (IsOnGround)
             {
-                if (input.MoveLeft)  { 
-                    vx = -MoveSpeed; facing = -1f; isWalking = true; 
+                if (input.MoveLeft)
+                {
+                    vx = -MoveSpeed; facing = -1f; isWalking = true;
                 }
-                else if (input.MoveRight) { 
-                    vx =  MoveSpeed; facing =  1f; isWalking = true; 
+                else if (input.MoveRight)
+                {
+                    vx = MoveSpeed; facing = 1f; isWalking = true;
                 }
-                else {
-                    vx *= 0.70f; isWalking = false; 
+                else
+                {
+                    vx *= 0.70f; isWalking = false;
                 }
             }
             else
             {
-                if (input.MoveLeft)  {
-                    vx = -MoveSpeed * AirControl; facing = -1f; 
+                if (input.MoveLeft)
+                {
+                    vx = -MoveSpeed * AirControl; facing = -1f;
                 }
-                else if (input.MoveRight) {
-                    vx =  MoveSpeed * AirControl; facing =  1f; 
+                else if (input.MoveRight)
+                {
+                    vx = MoveSpeed * AirControl; facing = 1f;
                 }
-                else {
-                    vx *= 0.96f; 
+                else
+                {
+                    vx *= 0.96f;
                 }
                 isWalking = false;
             }
@@ -125,21 +132,21 @@ namespace StickmanFighter.Entities
 
             if (input.JumpPressed && jumpsLeft > 0)
             {
-                Velocity   = new Vector2(Velocity.X, Jump);
+                Velocity = new Vector2(Velocity.X, Jump);
                 jumpsLeft--;
                 IsOnGround = false;
             }
 
             ApplyGravity(dt);
-            prevFeetY  = Position.Y;
-            Position  += Velocity * dt;
+            prevFeetY = Position.Y;
+            Position += Velocity * dt;
         }
 
         private void HandleAttack(float dt)
         {
             if (input.AttackPressed && !IsBlocking && !isAttackActive)
             {
-                isCharging  = true;
+                isCharging = true;
                 chargeTimer = 0f;
             }
 
@@ -148,12 +155,13 @@ namespace StickmanFighter.Entities
 
             if (isCharging && input.AttackReleased)
             {
-                firedCharge  = ChargeRatio;
-                isCharging   = false;
-                chargeTimer  = 0f;
+                firedCharge = ChargeRatio;
+                isCharging = false;
+                chargeTimer = 0f;
                 isAttackActive = true;
-                attackTimer  = AttackDuration;
+                attackTimer = AttackDuration;
                 hitDelivered = false;
+                Game1.MissSound.Play();
             }
         }
 
@@ -167,8 +175,8 @@ namespace StickmanFighter.Entities
             if (grounded && !IsOnGround) jumpsLeft = 2;
 
             IsOnGround = grounded;
-            Position   = pos;
-            Velocity   = vel;
+            Position = pos;
+            Velocity = vel;
 
             if (map.IsInVoid(Position)) FallIntoVoid();
         }
@@ -193,33 +201,34 @@ namespace StickmanFighter.Entities
         public void TakeHit(float charge, Vector2 attackerPos)
         {
             if (iFrameTimer > 0) return;
-
-            float damage    = Lerp(6f, 38f, charge);
+            Game1.HitSound.Play();
+            float damage = Lerp(6f, 38f, charge);
             float knockback = Lerp(350f, 1500f, charge) * (1f + DamagePercent * 0.007f);
-            float dir       = Position.X >= attackerPos.X ? 1f : -1f;
-            float upward    = Lerp(0.12f, 0.22f, charge);
+            float dir = Position.X >= attackerPos.X ? 1f : -1f;
+            float upward = Lerp(0.12f, 0.22f, charge);
 
             if (IsBlocking)
             {
-                Velocity   = new Vector2(dir * knockback * 0.15f, -60f);
+                Velocity = new Vector2(dir * knockback * 0.15f, -60f);
                 hitBlinkTimer = 0.08f;
                 IsOnGround = false;
                 return;
             }
 
-            DamagePercent  = Math.Min(DamagePercent + damage, 300f);
-            Velocity       = new Vector2(dir * knockback, -knockback * upward);
-            iFrameTimer    = IFrameTime;
+            DamagePercent = Math.Min(DamagePercent + damage, 300f);
+            Velocity = new Vector2(dir * knockback, -knockback * upward);
+            iFrameTimer = IFrameTime;
             knockbackTimer = KnockbackTime;
             hitBlinkTimer = 0.18f;
-            IsOnGround     = false;
+            IsOnGround = false;
         }
 
         private void FallIntoVoid()
         {
             Lives--;
             DamagePercent = 0f;
-            iFrameTimer   = 2.5f;
+            iFrameTimer = 2.5f;
+            Game1.DeadSound.Play();
 
             if (Lives <= 0)
             {
@@ -227,10 +236,10 @@ namespace StickmanFighter.Entities
             }
             else
             {
-                Position   = new Vector2(640, 150);
-                Velocity   = Vector2.Zero;
+                Position = new Vector2(640, 150);
+                Velocity = Vector2.Zero;
                 IsOnGround = false;
-                prevFeetY  = 150f;
+                prevFeetY = 150f;
             }
         }
 
@@ -242,26 +251,26 @@ namespace StickmanFighter.Entities
         {
             if (!IsAlive) return;
 
-            bool  flash = hitBlinkTimer > 0f && (int)(hitBlinkTimer * 30) % 2 == 0;
-            Color c     = flash ? Color.White : Color;
-            Color dark  = Color.Lerp(c, Color.Black, 0.5f);
+            bool flash = hitBlinkTimer > 0f && (int)(hitBlinkTimer * 30) % 2 == 0;
+            Color c = flash ? Color.White : Color;
+            Color dark = Color.Lerp(c, Color.Black, 0.5f);
 
             float swing = isWalking ? MathF.Sin(walkCycle) * 12f : 0f;
             float px = Position.X;
             float py = Position.Y;
 
-            var footL     = new Vector2(px - 7,  py);
-            var footR     = new Vector2(px + 7,  py);
-            var kneeL     = new Vector2(px - 7 - swing, py - 20);
-            var kneeR     = new Vector2(px + 7 + swing, py - 20);
-            var hips      = new Vector2(px,      py - 36);
-            var shoulders = new Vector2(px,      py - 54);
-            var head      = new Vector2(px,      py - 65);
+            var footL = new Vector2(px - 7, py);
+            var footR = new Vector2(px + 7, py);
+            var kneeL = new Vector2(px - 7 - swing, py - 20);
+            var kneeR = new Vector2(px + 7 + swing, py - 20);
+            var hips = new Vector2(px, py - 36);
+            var shoulders = new Vector2(px, py - 54);
+            var head = new Vector2(px, py - 65);
 
             DrawLine(sb, footL, kneeL, c, 3);
-            DrawLine(sb, kneeL, hips,  c, 3);
+            DrawLine(sb, kneeL, hips, c, 3);
             DrawLine(sb, footR, kneeR, c, 3);
-            DrawLine(sb, kneeR, hips,  c, 3);
+            DrawLine(sb, kneeR, hips, c, 3);
             DrawLine(sb, hips, shoulders, c, 4);
 
             DrawArms(sb, shoulders, c, swing);
@@ -275,7 +284,7 @@ namespace StickmanFighter.Entities
         {
             if (isAttackActive)
             {
-                DrawLine(sb, sh, new Vector2(sh.X + facing * 20, sh.Y + 6),  c, 3);
+                DrawLine(sb, sh, new Vector2(sh.X + facing * 20, sh.Y + 6), c, 3);
                 DrawLine(sb, new Vector2(sh.X + facing * 20, sh.Y + 6), new Vector2(sh.X + facing * 44, sh.Y + 2), c, 3);
                 DrawLine(sb, sh, new Vector2(sh.X - facing * 12, sh.Y + 14), c, 3);
                 DrawLine(sb, new Vector2(sh.X - facing * 12, sh.Y + 14), new Vector2(sh.X - facing * 20, sh.Y + 26), c, 3);
@@ -290,7 +299,7 @@ namespace StickmanFighter.Entities
             }
             else if (IsBlocking)
             {
-                DrawLine(sb, sh, new Vector2(sh.X + facing * 12, sh.Y + 6),  c, 3);
+                DrawLine(sb, sh, new Vector2(sh.X + facing * 12, sh.Y + 6), c, 3);
                 DrawLine(sb, new Vector2(sh.X + facing * 12, sh.Y + 6), new Vector2(sh.X + facing * 30, sh.Y), c, 3);
                 DrawLine(sb, sh, new Vector2(sh.X + facing * 14, sh.Y + 16), c, 3);
                 DrawLine(sb, new Vector2(sh.X + facing * 14, sh.Y + 16), new Vector2(sh.X + facing * 30, sh.Y + 12), c, 3);
@@ -307,7 +316,7 @@ namespace StickmanFighter.Entities
         private void DrawHead(SpriteBatch sb, Vector2 pos, Color c, Color dark)
         {
             int r = 10;
-            DrawRect(sb, new Rectangle((int)pos.X - r,     (int)pos.Y - r, r * 2,     r * 2), c);
+            DrawRect(sb, new Rectangle((int)pos.X - r, (int)pos.Y - r, r * 2, r * 2), c);
             DrawRect(sb, new Rectangle((int)pos.X - r + 2, (int)pos.Y - r - 2, r * 2 - 4, 4), c);
             DrawRect(sb, new Rectangle((int)pos.X - r + 2, (int)pos.Y + r - 1, r * 2 - 4, 3), c);
             DrawRect(sb, new Rectangle((int)(pos.X + facing * 2 - 4), (int)pos.Y - 2, 3, 3), dark);

@@ -1,4 +1,4 @@
-using Microsoft.Xna.Framework;
+﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 
@@ -32,8 +32,8 @@ namespace StickmanFighter.Screens
         private void DrawPadInfo(SpriteBatch sb, PlayerIndex index, int slot)
         {
             var pad = GamePad.GetState(index);
-            int x   = 40 + slot * 310;
-            int y   = 65;
+            int x = 40 + slot * 310;
+            int y = 65;
 
             Color header = pad.IsConnected ? Color.LimeGreen : Color.Red;
             DrawText(sb, $"PAD {slot + 1}  {(pad.IsConnected ? "CONNECTED" : "NOT FOUND")}", new Vector2(x, y), header, 2);

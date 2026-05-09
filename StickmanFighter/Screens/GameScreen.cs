@@ -1,7 +1,9 @@
-using Microsoft.Xna.Framework;
+﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using StickmanFighter.Entities;
 using StickmanFighter.Input;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace StickmanFighter.Screens
 {
@@ -83,10 +85,10 @@ namespace StickmanFighter.Screens
             DrawRect(sb, p, Color.Black * 0.9f);
 
             Color border = f.IsAlive ? f.Color : Color.Gray;
-            DrawRect(sb, new Rectangle(p.X,         p.Y,          p.Width, 2),        border);
-            DrawRect(sb, new Rectangle(p.X,         p.Bottom - 2, p.Width, 2),        border);
-            DrawRect(sb, new Rectangle(p.X,         p.Y,          2,       p.Height), border);
-            DrawRect(sb, new Rectangle(p.Right - 2, p.Y,          2,       p.Height), border);
+            DrawRect(sb, new Rectangle(p.X, p.Y, p.Width, 2), border);
+            DrawRect(sb, new Rectangle(p.X, p.Bottom - 2, p.Width, 2), border);
+            DrawRect(sb, new Rectangle(p.X, p.Y, 2, p.Height), border);
+            DrawRect(sb, new Rectangle(p.Right - 2, p.Y, 2, p.Height), border);
 
             DrawText(sb, f.Name, new Vector2(p.X + 8, p.Y + 6), f.IsAlive ? f.Color : Color.Gray, 2);
 
@@ -96,9 +98,9 @@ namespace StickmanFighter.Screens
             string pct = $"{(int)f.DamagePercent}%";
             Color pctColor;
 
-            if 
+            if
                 (f.DamagePercent < 100) pctColor = Color.Lerp(Color.LightGreen, Color.Yellow, f.DamagePercent / 100f);
-            else 
+            else
                 pctColor = Color.Lerp(Color.Yellow, Color.OrangeRed, (f.DamagePercent - 100f) / 200f);
 
             DrawText(sb, pct, new Vector2(p.X + 8, p.Y + 50), pctColor, 2);
@@ -111,9 +113,9 @@ namespace StickmanFighter.Screens
         {
             float x = pos.X, y = pos.Y;
             DrawRect(sb, new Rectangle((int)x - 4, (int)y - 16, 8, 8), c);
-            DrawRect(sb, new Rectangle((int)x - 1, (int)y - 8,  2, 8), c);
-            DrawRect(sb, new Rectangle((int)x - 4, (int)y,      4, 2), c);
-            DrawRect(sb, new Rectangle((int)x,     (int)y,      4, 2), c);
+            DrawRect(sb, new Rectangle((int)x - 1, (int)y - 8, 2, 8), c);
+            DrawRect(sb, new Rectangle((int)x - 4, (int)y, 4, 2), c);
+            DrawRect(sb, new Rectangle((int)x, (int)y, 4, 2), c);
         }
     }
 }

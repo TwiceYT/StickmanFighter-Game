@@ -1,5 +1,6 @@
-using Microsoft.Xna.Framework;
+﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
+using System;
 
 namespace StickmanFighter.Entities
 {
@@ -17,7 +18,7 @@ namespace StickmanFighter.Entities
             (int)Position.Y - Height,
             Width, Height);
 
-        protected const float Gravity     = 1800f;
+        protected const float Gravity = 1800f;
         protected const float MaxFallSpeed = 1200f;
 
         protected Entity(Vector2 startPos)
@@ -42,8 +43,8 @@ namespace StickmanFighter.Entities
 
         protected void DrawLine(SpriteBatch sb, Vector2 from, Vector2 to, Color color, int thickness = 2)
         {
-            var delta  = to - from;
-            float len  = delta.Length();
+            var delta = to - from;
+            float len = delta.Length();
             float angle = MathF.Atan2(delta.Y, delta.X);
             sb.Draw(Game1.Pixel, new Rectangle((int)from.X, (int)from.Y, (int)len, thickness),
                 null, color, angle, Vector2.Zero, SpriteEffects.None, 0f);

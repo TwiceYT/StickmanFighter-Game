@@ -1,4 +1,2 @@
-using StickmanFighter;
-
-using var game = new Game1();
+﻿using var game = new StickmanFighter.Game1();
 game.Run();

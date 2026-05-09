@@ -1,5 +1,6 @@
-using Microsoft.Xna.Framework;
+﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
+using System.Collections.Generic;
 
 namespace StickmanFighter.Map
 {
@@ -39,11 +40,11 @@ namespace StickmanFighter.Map
         public ArenaMap()
         {
             platforms.Add(new Platform(100, 540, 1080, 40, false, new Color(70, 90, 110)));
-            platforms.Add(new Platform(80,  400, 280,  22, true,  new Color(80, 105, 125)));
-            platforms.Add(new Platform(920, 400, 280,  22, true,  new Color(80, 105, 125)));
-            platforms.Add(new Platform(490, 330, 300,  20, true,  new Color(90, 115, 135)));
-            platforms.Add(new Platform(200, 255, 140,  18, true,  new Color(85, 110, 130)));
-            platforms.Add(new Platform(940, 255, 140,  18, true,  new Color(85, 110, 130)));
+            platforms.Add(new Platform(80, 400, 280, 22, true, new Color(80, 105, 125)));
+            platforms.Add(new Platform(920, 400, 280, 22, true, new Color(80, 105, 125)));
+            platforms.Add(new Platform(490, 330, 300, 20, true, new Color(90, 115, 135)));
+            platforms.Add(new Platform(200, 255, 140, 18, true, new Color(85, 110, 130)));
+            platforms.Add(new Platform(940, 255, 140, 18, true, new Color(85, 110, 130)));
         }
 
         public override List<Vector2> SpawnPoints => new()

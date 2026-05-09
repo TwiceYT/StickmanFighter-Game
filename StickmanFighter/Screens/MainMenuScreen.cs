@@ -1,6 +1,7 @@
-using Microsoft.Xna.Framework;
+﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using StickmanFighter.Entities;
+using System;
 
 namespace StickmanFighter.Screens
 {
@@ -17,12 +18,12 @@ namespace StickmanFighter.Screens
             input.Update();
 
             if (input.Confirm) Game.GoTo(new PlayerSelectScreen(Game));
-            if (input.Back)    Game.Exit();
+            if (input.Back) Game.Exit();
         }
 
         public override void Draw(SpriteBatch sb)
         {
-            int centerX = Game1.ScreenWidth  / 2;
+            int centerX = Game1.ScreenWidth / 2;
             int centerY = Game1.ScreenHeight / 2;
 
             DrawBackground(sb);
@@ -48,15 +49,15 @@ namespace StickmanFighter.Screens
             DrawRect(sb, new Rectangle(cx - 380, 55, 760, 85),
                 Color.Lerp(new Color(20, 50, 120), new Color(50, 90, 200), pulse) * 0.3f);
 
-            DrawTextCentered(sb, "STICKMAN FIGHTER", cx, 65,  Color.White, 4);
-            DrawTextCentered(sb, "Last man standing wins",   cx, 155, Color.LightSteelBlue, 2);
+            DrawTextCentered(sb, "STICKMAN FIGHTER", cx, 65, Color.White, 4);
+            DrawTextCentered(sb, "Last man standing wins", cx, 155, Color.LightSteelBlue, 2);
             DrawRect(sb, new Rectangle(cx - 300, 182, 600, 2), Color.SlateGray);
         }
 
         private void DrawFighters(SpriteBatch sb, int centerX, int centerY)
         {
             float bob = MathF.Sin(timer * 2f) * 6f;
-            DrawStickman(sb, new Vector2(centerX - 130, centerY + bob), Fighter.PlayerColors[0],  1f);
+            DrawStickman(sb, new Vector2(centerX - 130, centerY + bob), Fighter.PlayerColors[0], 1f);
             DrawStickman(sb, new Vector2(centerX + 130, centerY - bob), Fighter.PlayerColors[1], -1f);
             DrawTextCentered(sb, "VS", centerX, centerY - 20, Color.Gold, 3);
 
@@ -74,9 +75,9 @@ namespace StickmanFighter.Screens
         {
             float x = pos.X, y = pos.Y;
             DrawRect(sb, new Rectangle((int)x - 12, (int)y - 72, 24, 22), c);
-            DrawRect(sb, new Rectangle((int)x - 3,  (int)y - 50,  6, 28), c);
-            DrawRect(sb, new Rectangle((int)x - 14, (int)y - 20,  5, 22), c);
-            DrawRect(sb, new Rectangle((int)x + 9,  (int)y - 20,  5, 22), c);
+            DrawRect(sb, new Rectangle((int)x - 3, (int)y - 50, 6, 28), c);
+            DrawRect(sb, new Rectangle((int)x - 14, (int)y - 20, 5, 22), c);
+            DrawRect(sb, new Rectangle((int)x + 9, (int)y - 20, 5, 22), c);
             DrawRect(sb, new Rectangle((int)(x + facing * 6), (int)y - 46, (int)(facing * 26), 5), c);
         }
 

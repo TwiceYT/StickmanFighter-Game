@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Game Development\\C#\\Monogames\\Programmering 2\\Slutprojekt Stickman\\StickmanFighter\\StickmanFighter.csproj": {}
+    "C:\\Users\\vikto\\source\\repos\\Stickfight\\Stickfight\\StickmanFighter.csproj": {}
   },
   "projects": {
-    "F:\\Game Development\\C#\\Monogames\\Programmering 2\\Slutprojekt Stickman\\StickmanFighter\\StickmanFighter.csproj": {
+    "C:\\Users\\vikto\\source\\repos\\Stickfight\\Stickfight\\StickmanFighter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Game Development\\C#\\Monogames\\Programmering 2\\Slutprojekt Stickman\\StickmanFighter\\StickmanFighter.csproj",
+        "projectUniqueName": "C:\\Users\\vikto\\source\\repos\\Stickfight\\Stickfight\\StickmanFighter.csproj",
         "projectName": "StickmanFighter",
-        "projectPath": "F:\\Game Development\\C#\\Monogames\\Programmering 2\\Slutprojekt Stickman\\StickmanFighter\\StickmanFighter.csproj",
+        "projectPath": "C:\\Users\\vikto\\source\\repos\\Stickfight\\Stickfight\\StickmanFighter.csproj",
         "packagesPath": "C:\\Users\\vikto\\.nuget\\packages\\",
-        "outputPath": "F:\\Game Development\\C#\\Monogames\\Programmering 2\\Slutprojekt Stickman\\StickmanFighter\\obj\\",
+        "outputPath": "C:\\Users\\vikto\\source\\repos\\Stickfight\\Stickfight\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -53,9 +53,13 @@
           "framework": "net8.0",
           "targetAlias": "net8.0",
           "dependencies": {
+            "MonoGame.Content.Builder.Task": {
+              "target": "Package",
+              "version": "[3.8.*, )"
+            },
             "MonoGame.Framework.DesktopGL": {
               "target": "Package",
-              "version": "[3.8.1.303, )"
+              "version": "[3.8.*, )"
             }
           },
           "imports": [
@@ -69,24 +73,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.26, 8.0.26]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[8.0.26, 8.0.26]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.26, 8.0.26]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[8.0.26, 8.0.26]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
