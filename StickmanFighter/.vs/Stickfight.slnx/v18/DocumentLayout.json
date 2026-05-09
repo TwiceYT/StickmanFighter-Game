@@ -1,0 +1,290 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Game Development\\C#\\Monogames\\StickmanFighter Game\\StickmanFighter\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1EE1FC5B-26D1-8FEA-1867-0F0D02A92F6D}|Stickfight\\StickmanFighter.csproj|f:\\game development\\c#\\monogames\\stickmanfighter game\\stickmanfighter\\stickfight\\screens\\fonts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EE1FC5B-26D1-8FEA-1867-0F0D02A92F6D}|Stickfight\\StickmanFighter.csproj|solutionrelative:stickfight\\screens\\fonts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EE1FC5B-26D1-8FEA-1867-0F0D02A92F6D}|Stickfight\\StickmanFighter.csproj|f:\\game development\\c#\\monogames\\stickmanfighter game\\stickmanfighter\\stickfight\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EE1FC5B-26D1-8FEA-1867-0F0D02A92F6D}|Stickfight\\StickmanFighter.csproj|solutionrelative:stickfight\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vikto\\.nuget\\packages\\monogame.content.builder.task\\3.8.4.1\\build\\MonoGame.Content.Builder.Task.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EE1FC5B-26D1-8FEA-1867-0F0D02A92F6D}|Stickfight\\StickmanFighter.csproj|f:\\game development\\c#\\monogames\\stickmanfighter game\\stickmanfighter\\stickfight\\screens\\gamescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EE1FC5B-26D1-8FEA-1867-0F0D02A92F6D}|Stickfight\\StickmanFighter.csproj|solutionrelative:stickfight\\screens\\gamescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EE1FC5B-26D1-8FEA-1867-0F0D02A92F6D}|Stickfight\\StickmanFighter.csproj|f:\\game development\\c#\\monogames\\stickmanfighter game\\stickmanfighter\\stickfight\\screens\\gameoverscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EE1FC5B-26D1-8FEA-1867-0F0D02A92F6D}|Stickfight\\StickmanFighter.csproj|solutionrelative:stickfight\\screens\\gameoverscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EE1FC5B-26D1-8FEA-1867-0F0D02A92F6D}|Stickfight\\StickmanFighter.csproj|f:\\game development\\c#\\monogames\\stickmanfighter game\\stickmanfighter\\stickfight\\screens\\debugscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EE1FC5B-26D1-8FEA-1867-0F0D02A92F6D}|Stickfight\\StickmanFighter.csproj|solutionrelative:stickfight\\screens\\debugscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EE1FC5B-26D1-8FEA-1867-0F0D02A92F6D}|Stickfight\\StickmanFighter.csproj|f:\\game development\\c#\\monogames\\stickmanfighter game\\stickmanfighter\\stickfight\\player\\fighter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EE1FC5B-26D1-8FEA-1867-0F0D02A92F6D}|Stickfight\\StickmanFighter.csproj|solutionrelative:stickfight\\player\\fighter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EE1FC5B-26D1-8FEA-1867-0F0D02A92F6D}|Stickfight\\StickmanFighter.csproj|f:\\game development\\c#\\monogames\\stickmanfighter game\\stickmanfighter\\stickfight\\player\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EE1FC5B-26D1-8FEA-1867-0F0D02A92F6D}|Stickfight\\StickmanFighter.csproj|solutionrelative:stickfight\\player\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EE1FC5B-26D1-8FEA-1867-0F0D02A92F6D}|Stickfight\\StickmanFighter.csproj|f:\\game development\\c#\\monogames\\stickmanfighter game\\stickmanfighter\\stickfight\\map\\platform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EE1FC5B-26D1-8FEA-1867-0F0D02A92F6D}|Stickfight\\StickmanFighter.csproj|solutionrelative:stickfight\\map\\platform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EE1FC5B-26D1-8FEA-1867-0F0D02A92F6D}|Stickfight\\StickmanFighter.csproj|f:\\game development\\c#\\monogames\\stickmanfighter game\\stickmanfighter\\stickfight\\map\\map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EE1FC5B-26D1-8FEA-1867-0F0D02A92F6D}|Stickfight\\StickmanFighter.csproj|solutionrelative:stickfight\\map\\map.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EE1FC5B-26D1-8FEA-1867-0F0D02A92F6D}|Stickfight\\StickmanFighter.csproj|f:\\game development\\c#\\monogames\\stickmanfighter game\\stickmanfighter\\stickfight\\input\\playerinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EE1FC5B-26D1-8FEA-1867-0F0D02A92F6D}|Stickfight\\StickmanFighter.csproj|solutionrelative:stickfight\\input\\playerinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EE1FC5B-26D1-8FEA-1867-0F0D02A92F6D}|Stickfight\\StickmanFighter.csproj|f:\\game development\\c#\\monogames\\stickmanfighter game\\stickmanfighter\\stickfight\\input\\inputscheme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EE1FC5B-26D1-8FEA-1867-0F0D02A92F6D}|Stickfight\\StickmanFighter.csproj|solutionrelative:stickfight\\input\\inputscheme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EE1FC5B-26D1-8FEA-1867-0F0D02A92F6D}|Stickfight\\StickmanFighter.csproj|f:\\game development\\c#\\monogames\\stickmanfighter game\\stickmanfighter\\stickfight\\screens\\screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EE1FC5B-26D1-8FEA-1867-0F0D02A92F6D}|Stickfight\\StickmanFighter.csproj|solutionrelative:stickfight\\screens\\screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EE1FC5B-26D1-8FEA-1867-0F0D02A92F6D}|Stickfight\\StickmanFighter.csproj|f:\\game development\\c#\\monogames\\stickmanfighter game\\stickmanfighter\\stickfight\\screens\\playerselectedscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EE1FC5B-26D1-8FEA-1867-0F0D02A92F6D}|Stickfight\\StickmanFighter.csproj|solutionrelative:stickfight\\screens\\playerselectedscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EE1FC5B-26D1-8FEA-1867-0F0D02A92F6D}|Stickfight\\StickmanFighter.csproj|f:\\game development\\c#\\monogames\\stickmanfighter game\\stickmanfighter\\stickfight\\screens\\menuinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EE1FC5B-26D1-8FEA-1867-0F0D02A92F6D}|Stickfight\\StickmanFighter.csproj|solutionrelative:stickfight\\screens\\menuinput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EE1FC5B-26D1-8FEA-1867-0F0D02A92F6D}|Stickfight\\StickmanFighter.csproj|f:\\game development\\c#\\monogames\\stickmanfighter game\\stickmanfighter\\stickfight\\screens\\mainmenuscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EE1FC5B-26D1-8FEA-1867-0F0D02A92F6D}|Stickfight\\StickmanFighter.csproj|solutionrelative:stickfight\\screens\\mainmenuscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EE1FC5B-26D1-8FEA-1867-0F0D02A92F6D}|Stickfight\\StickmanFighter.csproj|f:\\game development\\c#\\monogames\\stickmanfighter game\\stickmanfighter\\stickfight\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EE1FC5B-26D1-8FEA-1867-0F0D02A92F6D}|Stickfight\\StickmanFighter.csproj|solutionrelative:stickfight\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GameScreen.cs",
+              "DocumentMoniker": "F:\\Game Development\\C#\\Monogames\\StickmanFighter Game\\StickmanFighter\\Stickfight\\Screens\\GameScreen.cs",
+              "RelativeDocumentMoniker": "Stickfight\\Screens\\GameScreen.cs",
+              "ToolTip": "F:\\Game Development\\C#\\Monogames\\StickmanFighter Game\\StickmanFighter\\Stickfight\\Screens\\GameScreen.cs",
+              "RelativeToolTip": "Stickfight\\Screens\\GameScreen.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T13:22:45.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GameOverScreen.cs",
+              "DocumentMoniker": "F:\\Game Development\\C#\\Monogames\\StickmanFighter Game\\StickmanFighter\\Stickfight\\Screens\\GameOverScreen.cs",
+              "RelativeDocumentMoniker": "Stickfight\\Screens\\GameOverScreen.cs",
+              "ToolTip": "F:\\Game Development\\C#\\Monogames\\StickmanFighter Game\\StickmanFighter\\Stickfight\\Screens\\GameOverScreen.cs",
+              "RelativeToolTip": "Stickfight\\Screens\\GameOverScreen.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAgwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T13:22:28.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Fonts.cs",
+              "DocumentMoniker": "F:\\Game Development\\C#\\Monogames\\StickmanFighter Game\\StickmanFighter\\Stickfight\\Screens\\Fonts.cs",
+              "RelativeDocumentMoniker": "Stickfight\\Screens\\Fonts.cs",
+              "ToolTip": "F:\\Game Development\\C#\\Monogames\\StickmanFighter Game\\StickmanFighter\\Stickfight\\Screens\\Fonts.cs",
+              "RelativeToolTip": "Stickfight\\Screens\\Fonts.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAuwEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T13:22:09.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DebugScreen.cs",
+              "DocumentMoniker": "F:\\Game Development\\C#\\Monogames\\StickmanFighter Game\\StickmanFighter\\Stickfight\\Screens\\DebugScreen.cs",
+              "RelativeDocumentMoniker": "Stickfight\\Screens\\DebugScreen.cs",
+              "ToolTip": "F:\\Game Development\\C#\\Monogames\\StickmanFighter Game\\StickmanFighter\\Stickfight\\Screens\\DebugScreen.cs",
+              "RelativeToolTip": "Stickfight\\Screens\\DebugScreen.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAgwEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T13:21:55.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Fighter.cs",
+              "DocumentMoniker": "F:\\Game Development\\C#\\Monogames\\StickmanFighter Game\\StickmanFighter\\Stickfight\\Player\\Fighter.cs",
+              "RelativeDocumentMoniker": "Stickfight\\Player\\Fighter.cs",
+              "ToolTip": "F:\\Game Development\\C#\\Monogames\\StickmanFighter Game\\StickmanFighter\\Stickfight\\Player\\Fighter.cs",
+              "RelativeToolTip": "Stickfight\\Player\\Fighter.cs",
+              "ViewState": "AgIAAPgAAAAAAAAAAAAtwOYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T13:21:17.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Entity.cs",
+              "DocumentMoniker": "F:\\Game Development\\C#\\Monogames\\StickmanFighter Game\\StickmanFighter\\Stickfight\\Player\\Entity.cs",
+              "RelativeDocumentMoniker": "Stickfight\\Player\\Entity.cs",
+              "ToolTip": "F:\\Game Development\\C#\\Monogames\\StickmanFighter Game\\StickmanFighter\\Stickfight\\Player\\Entity.cs",
+              "RelativeToolTip": "Stickfight\\Player\\Entity.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAxwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T13:20:44.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Game1.cs",
+              "DocumentMoniker": "F:\\Game Development\\C#\\Monogames\\StickmanFighter Game\\StickmanFighter\\Stickfight\\Game1.cs",
+              "RelativeDocumentMoniker": "Stickfight\\Game1.cs",
+              "ToolTip": "F:\\Game Development\\C#\\Monogames\\StickmanFighter Game\\StickmanFighter\\Stickfight\\Game1.cs",
+              "RelativeToolTip": "Stickfight\\Game1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T13:18:00.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MonoGame.Content.Builder.Task.targets",
+              "DocumentMoniker": "C:\\Users\\vikto\\.nuget\\packages\\monogame.content.builder.task\\3.8.4.1\\build\\MonoGame.Content.Builder.Task.targets",
+              "ToolTip": "C:\\Users\\vikto\\.nuget\\packages\\monogame.content.builder.task\\3.8.4.1\\build\\MonoGame.Content.Builder.Task.targets",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAiwKsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-05-09T13:34:13.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Platform.cs",
+              "DocumentMoniker": "F:\\Game Development\\C#\\Monogames\\StickmanFighter Game\\StickmanFighter\\Stickfight\\Map\\Platform.cs",
+              "RelativeDocumentMoniker": "Stickfight\\Map\\Platform.cs",
+              "ToolTip": "F:\\Game Development\\C#\\Monogames\\StickmanFighter Game\\StickmanFighter\\Stickfight\\Map\\Platform.cs",
+              "RelativeToolTip": "Stickfight\\Map\\Platform.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T13:19:59.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Map.cs",
+              "DocumentMoniker": "F:\\Game Development\\C#\\Monogames\\StickmanFighter Game\\StickmanFighter\\Stickfight\\Map\\Map.cs",
+              "RelativeDocumentMoniker": "Stickfight\\Map\\Map.cs",
+              "ToolTip": "F:\\Game Development\\C#\\Monogames\\StickmanFighter Game\\StickmanFighter\\Stickfight\\Map\\Map.cs",
+              "RelativeToolTip": "Stickfight\\Map\\Map.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T13:19:44.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PlayerInput.cs",
+              "DocumentMoniker": "F:\\Game Development\\C#\\Monogames\\StickmanFighter Game\\StickmanFighter\\Stickfight\\Input\\PlayerInput.cs",
+              "RelativeDocumentMoniker": "Stickfight\\Input\\PlayerInput.cs",
+              "ToolTip": "F:\\Game Development\\C#\\Monogames\\StickmanFighter Game\\StickmanFighter\\Stickfight\\Input\\PlayerInput.cs",
+              "RelativeToolTip": "Stickfight\\Input\\PlayerInput.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAYwBYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T13:19:11.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "InputScheme.cs",
+              "DocumentMoniker": "F:\\Game Development\\C#\\Monogames\\StickmanFighter Game\\StickmanFighter\\Stickfight\\Input\\InputScheme.cs",
+              "RelativeDocumentMoniker": "Stickfight\\Input\\InputScheme.cs",
+              "ToolTip": "F:\\Game Development\\C#\\Monogames\\StickmanFighter Game\\StickmanFighter\\Stickfight\\Input\\InputScheme.cs",
+              "RelativeToolTip": "Stickfight\\Input\\InputScheme.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T13:18:56.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Screen.cs",
+              "DocumentMoniker": "F:\\Game Development\\C#\\Monogames\\StickmanFighter Game\\StickmanFighter\\Stickfight\\Screens\\Screen.cs",
+              "RelativeDocumentMoniker": "Stickfight\\Screens\\Screen.cs",
+              "ToolTip": "F:\\Game Development\\C#\\Monogames\\StickmanFighter Game\\StickmanFighter\\Stickfight\\Screens\\Screen.cs",
+              "RelativeToolTip": "Stickfight\\Screens\\Screen.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAgwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T13:23:52.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PlayerSelectedScreen.cs",
+              "DocumentMoniker": "F:\\Game Development\\C#\\Monogames\\StickmanFighter Game\\StickmanFighter\\Stickfight\\Screens\\PlayerSelectedScreen.cs",
+              "RelativeDocumentMoniker": "Stickfight\\Screens\\PlayerSelectedScreen.cs",
+              "ToolTip": "F:\\Game Development\\C#\\Monogames\\StickmanFighter Game\\StickmanFighter\\Stickfight\\Screens\\PlayerSelectedScreen.cs",
+              "RelativeToolTip": "Stickfight\\Screens\\PlayerSelectedScreen.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAQwCEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T13:23:37.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MenuInput.cs",
+              "DocumentMoniker": "F:\\Game Development\\C#\\Monogames\\StickmanFighter Game\\StickmanFighter\\Stickfight\\Screens\\MenuInput.cs",
+              "RelativeDocumentMoniker": "Stickfight\\Screens\\MenuInput.cs",
+              "ToolTip": "F:\\Game Development\\C#\\Monogames\\StickmanFighter Game\\StickmanFighter\\Stickfight\\Screens\\MenuInput.cs",
+              "RelativeToolTip": "Stickfight\\Screens\\MenuInput.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAByAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T13:23:22.687Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MainMenuScreen.cs",
+              "DocumentMoniker": "F:\\Game Development\\C#\\Monogames\\StickmanFighter Game\\StickmanFighter\\Stickfight\\Screens\\MainMenuScreen.cs",
+              "RelativeDocumentMoniker": "Stickfight\\Screens\\MainMenuScreen.cs",
+              "ToolTip": "F:\\Game Development\\C#\\Monogames\\StickmanFighter Game\\StickmanFighter\\Stickfight\\Screens\\MainMenuScreen.cs",
+              "RelativeToolTip": "Stickfight\\Screens\\MainMenuScreen.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAgwGIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T13:23:08.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\Game Development\\C#\\Monogames\\StickmanFighter Game\\StickmanFighter\\Stickfight\\Program.cs",
+              "RelativeDocumentMoniker": "Stickfight\\Program.cs",
+              "ToolTip": "F:\\Game Development\\C#\\Monogames\\StickmanFighter Game\\StickmanFighter\\Stickfight\\Program.cs",
+              "RelativeToolTip": "Stickfight\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T13:28:53.354Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
